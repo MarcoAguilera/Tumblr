@@ -11,6 +11,7 @@ import UIKit
 class PhotoCell: UITableViewCell {
 
     @IBOutlet weak var myImageView: UIImageView!
+    var url_string = ""
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
